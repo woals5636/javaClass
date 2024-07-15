@@ -1,0 +1,8 @@
+자바 메서드(함수) 3가지 항목
+1) 기능
+2) 매개변수
+3) 리턴값
+
+JDK , JRE, JVM
+JDK = JRE + 개발에 필요한 실행파일( bin 폴더 java.exe, javac.exe .. )
+JRE = JVM + 클래스 라이브러리(Java API)
