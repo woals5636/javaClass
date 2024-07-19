@@ -12,8 +12,9 @@ public class Ex11_02 {
 		Regular emp = new Regular();
 		test(emp);
 
-		Employee emp2 = new Employee();
-		test(emp2);
+//		Employee 클래스는 추상클래스이기 때문에 객체를 생성할 수 없다.
+//		Employee emp2 = new Employee();
+//		test(emp2);
 	}
 
 	public static void test(Employee emp) {

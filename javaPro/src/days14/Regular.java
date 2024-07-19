@@ -23,7 +23,7 @@ public class Regular extends Employee{
 	}
 
 	public int getBasePay() {
-		return basePay;
+		return this.basePay;
 	}
 
 	public void setBasePay(int basePay) {
