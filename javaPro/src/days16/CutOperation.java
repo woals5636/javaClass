@@ -1,5 +1,7 @@
 package days16;
 
+import java.util.Scanner;
+
 public class CutOperation {
 
 	public static void main(String[] args) {
@@ -52,6 +54,28 @@ public class CutOperation {
 		4
 		1
 		*/
+
+
+		int n = 0; // 막대기의 길이
+		
+		
+		cutOperation(n);
+	}
+
+	private static int cutOperation(int n) {
+		int [] nArr = new int [n];
+		int m = n;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("막대기의 갯수를 입력하시요 : ");
+		n = sc.nextInt();
+		System.out.print("막대기 길이를 입력하시오 : ");
+		
+		for (int i = 0; i < nArr.length; i++) {
+		}
+		
+		
+		
+		return m; 
 	}
 
 }
